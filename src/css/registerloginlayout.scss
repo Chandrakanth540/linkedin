@@ -1,0 +1,23 @@
+.header-btns {
+  margin-top: -60px;
+
+  text-align: end;
+  #header-btn1,
+  #header-btn2 {
+    color: black;
+    outline: none;
+    border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-right: 15px;
+    background-color: white;
+  }
+}
+.active-box {
+  font-weight: 600;
+  padding: 2px;
+  box-shadow: 2px 3px 5px black;
+}
+:root {
+  background-color: white !important;
+}

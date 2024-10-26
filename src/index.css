@@ -1,0 +1,139 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+
+  /* color-scheme: light dark; */
+  /* color: black; */
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: gray;
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+/* button:hover {
+  background-color: hsla(0, 0%, 0%, 0.779);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.app-name {
+  width: fit-content;
+  padding: 0px 6px;
+  box-shadow: 1px 1px 3px black;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: red;
+  background-color: whitesmoke;
+  /* box-shadow: 0px 0px 4px gray; */
+  padding: 10px 160px;
+  font-size: 14px;
+  bottom: 0;
+  /* position: sticky; */
+  /* outline: 2px solid white; */
+  /* outline-offset: 10px; */
+}
+.--hub {
+  background-color: black;
+  color: gray;
+}
+.--enlace {
+  color: black;
+  font-weight: 500;
+}
+.copyright {
+  font-size: 17px;
+  color: black;
+}
+.span2023 {
+  font-size: 12px;
+  color: gray;
+}
+.foot-name {
+  display: flex;
+  gap: 3px;
+}
+
+.ql-toolbar {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  border: none !important;
+}
+.ql-formats {
+  display: flex !important;
+  flex-direction: row;
+}
+.ant-modal-body {
+  display: flex;
+  flex-direction: column;
+}
+.ql-editor {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px !important;
+  border: none !important;
+
+  outline: none;
+  height: 200px !important;
+}
+.ql-container {
+  border: none !important;
+  height: 400px;
+}
+
+/* ________________________________________________ */
+/* ________________________________________________________________________
+ */
+
+.split {
+  display: flex;
+  flex-direction: row;
+}
+
+.gutter {
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==');
+  cursor: col-resize;
+}

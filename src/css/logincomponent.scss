@@ -1,0 +1,229 @@
+@font-face {
+  font-family: lucida;
+  src: url('../assets/font-style/OFL.txt');
+}
+
+.formal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 50px;
+  width: 300px;
+  color: white;
+  border-radius: 25px;
+  background-color: black;
+  max-height: 100%;
+}
+// @media screen and (max-width :767px) {
+//     .login-wrapper{
+//         width: 320px !important;
+//         margin-top: 50px !important;
+//         font-size: 12px !important;
+//         padding: 0px;
+//         gap: 10px;
+//     }
+//     .formal-btn{
+//         font-size: 12px;
+//         height: 35px;
+//     }
+//     .span-email{
+//         padding:0px;
+
+//         // margin-top: 2px !important;
+//     }
+//     .input-email{
+//         margin-top: 12px;
+//         width: 200px;
+//         height: 35px;
+//         padding: 0px;
+//     }
+//     .input-pass-login{
+//     margin-top: 5px;
+//         width: 200px;
+//         height: 35px;
+//         padding: 0px;
+//     }
+//   }
+.login-wrapper {
+  background-color: white;
+  font-family: lucida;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  // box-shadow: -2px -2px 5px hsl(0, 52%, 66%);
+  box-shadow: 0px 0px 5px black;
+  width: fit-content;
+
+  padding: 20px 25px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+  .input-email {
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;
+    padding-top: 20px;
+    width: 296px;
+    font-size: 19px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+  }
+  .input-pass-login {
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    padding-top: 15px;
+    font-size: 19px;
+    width: fit-content;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 6px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .pass-show-btn {
+    width: 36px;
+    color: black;
+    background-color: white;
+    outline: none;
+    border: 2px solid white;
+
+    // margin-top: 15px;
+    // margin-top: auto;
+    // margin-bottom: auto;
+  }
+
+  .input-password,
+  .input-secondpassword {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    width: 260px;
+    height: 20px;
+    outline: none;
+    border: 1px solid white;
+  }
+  .span-email {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 10px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .span-pass,
+  .span-secondpass {
+    font-size: 13px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .span-secondpass {
+    margin-top: -1px;
+  }
+}
+.title-content {
+  p {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  h5,
+  h2,
+  h3,
+  h4,
+  h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -30px;
+    font-weight: 200;
+  }
+}
+.enlace {
+  font-family: lucida;
+  width: fit-content;
+  display: block;
+  color: green;
+  font-weight: 620;
+  font-size: 32px;
+}
+.--hub {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: black;
+}
+.google-btn:hover {
+  box-shadow: 1px 1px 10px black;
+  border: 2px solid white;
+  outline: none;
+  color: #222222;
+}
+
+.google-btn {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff !important;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 2px 2px 4px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .google-icon {
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: white;
+
+    border-radius: 50%;
+  }
+}
+.googlebutton {
+  span {
+    margin-left: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.line-or {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px 0px;
+
+  span {
+    margin: 0px 20px;
+  }
+}
+.line1,
+.line2 {
+  width: 60px;
+  background-color: gray;
+
+  height: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.join-now {
+  font-family: system-ui, -apple-system;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 46px;
+  a {
+    color: blue;
+    font-weight: 600;
+  }
+}
+
+.fidget-spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7%;
+  flex-direction: column;
+  // transform: translateY(20);
+  // margin:auto auto;
+}

@@ -1,0 +1,259 @@
+:root {
+  background-color: snow;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile-name {
+  font-family: cursive;
+}
+.edit-option {
+  // top: 40px;
+  position: absolute;
+  right: 22px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.profilecomp-Main-div {
+  background-color: whitesmoke;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  gap: -12px;
+  width: min-content;
+  border: 1px solid #bbbbbb;
+  // margin-left: auto;
+  // margin-right: auto;
+  margin-left: 200px;
+  flex-wrap: wrap;
+  // align-items: center;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .profilecomp-Main-div {
+    margin-top: 50px;
+    margin-left: 0;
+  }
+}
+
+.pic-icon-dic {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  // pointer-events: none;
+}
+.cam-background-icon {
+  position: absolute;
+  padding: 10px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  color: green;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.profile-backgroundImage {
+  height: 280px !important;
+  width: 750px !important;
+  // border: 2px solid red;
+  object-fit: cover;
+  filter: blur(0px);
+  @media screen and (max-width: 768px) {
+    // width: 410px;
+    // height: 200px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profile-backgroundImage {
+    height: 200px !important;
+    width: 400px !important;
+    object-fit: contain;
+  }
+  // width: 410px;
+  // height: 200px;
+}
+.all-details-div {
+  // filter: blur(0.8px);
+  // opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 1px 25px;
+  div {
+    padding: 7px;
+  }
+  a {
+    color: lightgreen;
+  }
+}
+
+.blur-no {
+  filter: none;
+  color: black;
+}
+.Name-clg-div {
+  // opacity: ;
+  color: black !important;
+  filter: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+.profile-profilepic {
+  filter: blur(0.5px);
+  opacity: 1;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-left: 50px;
+  object-fit: cover;
+}
+
+.profile-address {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0px 10px;
+  width: fit-content;
+  background-color: whitesmoke;
+}
+
+.opento-add-more-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+
+  button {
+    font-size: 17px;
+    width: fit-content;
+    height: 40px;
+    border-radius: 10px;
+    filter: none;
+    font-weight: 550;
+    width: 80px;
+    border: 1px solid #bbbbbb;
+    color: black;
+  }
+  button:hover {
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    background-color: snow;
+  }
+}
+.opentowork {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  background-color: whitesmoke;
+}
+// ______________________________________________________
+.update-data-form {
+  input {
+    height: 40px;
+    font-size: 21px !important;
+    font-weight: 450;
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+.update-data-btns {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+}
+
+.username-update-div {
+  width: max-content;
+  height: 30px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+#profile-username,
+#profile-headline,
+#profile-education,
+#profile-state,
+#profile-contact {
+  color: green;
+  caret-color: green;
+  padding: 5px;
+  font-family: cursive;
+  border: 1px solid #bbbbbb;
+  font-size: 19px;
+  height: 40px;
+  width: 140%;
+  outline: none;
+  color: hsla(0, 0%, 0%, 0.694);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#profile-username::placeholder,
+#profile-headline::placeholder,
+#profile-education::placeholder,
+#profile-state::placeholder,
+#profile-contact::placeholder {
+  color: #bbbbbb;
+}
+@keyframes moveup {
+  0% {
+    transform: translateY(12px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.username-update {
+  position: absolute;
+  color: orange;
+  margin-top: -12px;
+  background-color: white;
+  margin-left: 10px;
+  padding: 0px 5px;
+  animation: moveup 2s ease-in-out;
+}
+.update-main-div {
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+  color: hsla(0, 0%, 0%, 0.509);
+}
+.div-profile-modal {
+  height: 200px;
+  width: 250px;
+  background-color: snow;
+  display: flex;
+  // justify-content: space-evenly;
+  align-items: center;
+  // justify-content: ;
+  gap: 100px;
+  padding: 20px;
+}
+.preview-on-modal-profilpic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1px solid #bbbbbb;
+  background-color: white;
+}
+
+.progress-circle {
+  // padding-right: 420px;
+  right: 0;
+  padding: 30px;
+  position: absolute;
+}
+.new-div-added {
+  display: flex;
+  flex-direction: column;
+  // gap: -20px;
+}
